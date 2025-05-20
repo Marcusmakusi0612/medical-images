@@ -13,7 +13,9 @@ Please take the following order to run the codes:
 your raw data(.nii.gz) should be put in the following structure:    
     
 --Data
+
     --Rawdata
+    
         --Training data
             --case0
                 --mask0.nii.gz
