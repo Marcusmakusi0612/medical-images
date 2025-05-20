@@ -15,6 +15,9 @@ your raw data(.nii.gz) should be put in the following structure:
         
 
 
+
+
+
 --Data
 
     --Rawdata
