@@ -5,16 +5,24 @@ mamba for seg
 Please take the following order to run the codes:
 
 
-1.prepare your own data:
+1.prepare your own data:        
+
 
 your raw data(.nii.gz) should be put in the following structure:
 --Data
+
     --Rawdata
+    
         --Training data
+        
             --case0
+            
                 --mask0.nii.gz
+                
                 --case0.nii.ge
+                
             --case1
+            
                 --mask1.nii.gz
                 --case1.nii.ge
             --case2
