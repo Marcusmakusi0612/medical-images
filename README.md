@@ -5,13 +5,13 @@ mamba for seg
 
 Please take the following order to run the codes:
 
-
+    
 
 1.prepare your own data:        
-
+    
 
 your raw data(.nii.gz) should be put in the following structure:    
-
+    
 --Data
     --Rawdata
         --Training data
@@ -36,9 +36,9 @@ your raw data(.nii.gz) should be put in the following structure:
                 --mask157.nii.gz
                 --case157.nii.ge
             .......
-
+    
 rename your own datasets to t.nii.gz and seg.nii.gz format using rename.py
-
+    
 2.run preprocessing.py to transfer the format of your data to .npz and .kpl for the next step
 
 3.start train using train.py
